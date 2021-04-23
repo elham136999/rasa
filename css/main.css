@@ -186,10 +186,7 @@
   width: 8rem;
   outline: none;
   font-family: "yekan", sans-serif;
-}
-
-.container .button .btn .far {
-  font-size: 5rem;
+  position: relative;
 }
 
 .container .button .btn-1 {
@@ -197,8 +194,28 @@
   border: none;
 }
 
+.container .button .btn-1 .fas {
+  color: #000;
+}
+
 .container .button .btn-2 {
   border: 1px solid #bbbaba;
+}
+
+.container .button .btn-2 .fas {
+  color: #ffaa17;
+}
+
+.container .button .btn-2:hover {
+  background-color: #ffaa17;
+}
+
+.container .button .fas {
+  font-size: 1.2rem;
+  transform: rotate(225deg);
+  position: absolute;
+  top: 0;
+  right: 0;
 }
 
 *,
