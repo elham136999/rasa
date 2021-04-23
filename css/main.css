@@ -179,6 +179,10 @@
   color: #fff;
 }
 
+.container .button {
+  margin: 2rem 0 0 2rem;
+}
+
 .container .button .btn {
   padding: 1rem;
   display: block;
