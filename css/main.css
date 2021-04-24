@@ -1,21 +1,26 @@
 .container {
-  width: 100%;
-  height: 140vh;
+  background-position: center;
   background-image: url("../images/1_NFJlE0Pvasatz8O8ZHqaoA.jpeg");
   background-size: cover;
-  /*
-  .clip-path {
-    width: 10rem;
-    height: 150%;
-    background-color: aqua;
-    transform: translateX(40rem) rotate(43deg);
-    overflow-x: hidden;
-  }
-  */
+  position: relative;
+  height: 100vh;
+  padding: 1rem;
   /* menu */
   /* menu icon */
   /* menu btn */
   /* 48em = 768px */
+}
+
+.container .shape {
+  width: 250px;
+  height: 250px;
+  background-color: #ffaa17;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  opacity: 0.6;
+  clip-path: polygon(100% 0%, 100% 62%, 62% 100%, 0% 100%);
+  z-index: 0;
 }
 
 .container .header {
@@ -167,13 +172,13 @@
 }
 
 .container-text {
-  text-align: center;
+  text-align: right;
 }
 
 .container-text .text {
   display: inline-block;
-  font-size: 1.2rem;
-  margin-top: 9rem;
+  font-size: 1.5rem;
+  margin-top: 14rem;
   font-family: "yekan", sans-serif;
   font-weight: bold;
   color: #fff;
@@ -181,6 +186,7 @@
 
 .container .button {
   margin: 2rem 0 0 2rem;
+  display: flex;
 }
 
 .container .button .btn {
@@ -195,7 +201,13 @@
 
 .container .button .btn-1 {
   background-color: #ffaa17;
-  border: none;
+  border: 2px solid #ffaa17;
+}
+
+.container .button .btn-1:hover {
+  background-color: transparent;
+  border: 2px solid #bbbaba;
+  color: #fff;
 }
 
 .container .button .btn-1 .fas {
@@ -203,7 +215,9 @@
 }
 
 .container .button .btn-2 {
-  border: 1px solid #bbbaba;
+  border: 2px solid #bbbaba;
+  background-color: transparent;
+  color: #fff;
 }
 
 .container .button .btn-2 .fas {
@@ -212,6 +226,7 @@
 
 .container .button .btn-2:hover {
   background-color: #ffaa17;
+  border: 2px solid #ffaa17;
 }
 
 .container .button .fas {
