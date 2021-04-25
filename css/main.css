@@ -12,15 +12,15 @@
 }
 
 .container .shape {
-  width: 250px;
-  height: 250px;
+  width: 350px;
+  height: 350px;
   background-color: #ffaa17;
   position: absolute;
   right: 0;
   bottom: 0;
   opacity: 0.6;
   clip-path: polygon(100% 0%, 100% 62%, 62% 100%, 0% 100%);
-  z-index: 0;
+  z-index: 1;
 }
 
 .container .header {
