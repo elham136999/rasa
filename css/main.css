@@ -20,13 +20,13 @@
   bottom: 0;
   opacity: 0.6;
   clip-path: polygon(100% 0%, 100% 62%, 62% 100%, 0% 100%);
-  z-index: 1;
+  z-index: 0;
 }
 
 .container .header {
   background-color: #fff;
   box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-  position: fixed;
+  position: relative;
   width: 100%;
   z-index: 3;
   margin-top: 1rem;
@@ -92,6 +92,7 @@
   display: block;
   height: 2px;
   position: relative;
+  left: 8rem;
   transition: background 0.2s ease-out;
   width: 18px;
 }
@@ -173,20 +174,24 @@
 
 .container-text {
   text-align: right;
+  z-index: 3;
 }
 
 .container-text .text {
-  display: inline-block;
+  display: block;
   font-size: 1.5rem;
-  margin-top: 14rem;
+  margin-top: 12rem;
   font-family: "yekan", sans-serif;
   font-weight: bold;
   color: #fff;
+  position: relative;
+  right: 1rem;
 }
 
 .container .button {
   margin: 2rem 0 0 2rem;
   display: flex;
+  z-index: 1;
 }
 
 .container .button .btn {
@@ -235,6 +240,35 @@
   position: absolute;
   top: 0;
   right: 0;
+}
+
+.section-1 .gallery {
+  margin-top: 2.5rem;
+  position: relative;
+}
+
+.section-1 .gallery .image {
+  position: absolute;
+  left: 1rem;
+}
+
+.section-1 .gallery .image-1 {
+  width: 25rem;
+  height: 25rem;
+}
+
+.section-1 .gallery .image-2 {
+  width: 10rem;
+  height: 8rem;
+  margin-top: 2rem;
+  margin-left: 20rem;
+}
+
+.section-1 .gallery .image-3 {
+  width: 20rem;
+  height: 15rem;
+  margin-left: 12rem;
+  margin-top: 20rem;
 }
 
 *,

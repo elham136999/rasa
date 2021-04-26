@@ -18,13 +18,13 @@
 
     opacity: 0.6;
     clip-path: polygon(100% 0%, 100% 62%, 62% 100%, 0% 100%);
-    z-index: 1;
+    z-index: 0;
   }
 
   .header {
     background-color: #fff;
     box-shadow: 1px 1px 4px 0 rgba(0, 0, 0, 0.1);
-    position: fixed;
+    position: relative;
     width: 100%;
     z-index: 3;
     margin-top: 1rem;
@@ -91,6 +91,7 @@
     display: block;
     height: 2px;
     position: relative;
+    left: 8rem;
     transition: background 0.2s ease-out;
     width: 18px;
   }
@@ -173,19 +174,23 @@
   }
   &-text {
     text-align: right;
+    z-index: 3;
 
     .text {
-      display: inline-block;
+      display: block;
       font-size: 1.5rem;
-      margin-top: 14rem;
+      margin-top: 12rem;
       font-family: "yekan", sans-serif;
       font-weight: bold;
       color: $color-white;
+      position: relative;
+      right: 1rem;
     }
   }
   .button {
     margin: 2rem 0 0 2rem;
     display: flex;
+    z-index: 1;
 
     .btn {
       padding: 1rem;

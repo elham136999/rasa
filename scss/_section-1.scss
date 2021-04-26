@@ -1,0 +1,27 @@
+.section-1 {
+  .gallery {
+    margin-top: 2.5rem;
+    position: relative;
+
+    .image {
+      position: absolute;
+      left: 1rem;
+    }
+    .image-1 {
+      width: 25rem;
+      height: 25rem;
+    }
+    .image-2 {
+      width: 10rem;
+      height: 8rem;
+      margin-top: 2rem;
+      margin-left: 20rem;
+    }
+    .image-3 {
+      width: 20rem;
+      height: 15rem;
+      margin-left: 12rem;
+      margin-top: 20rem;
+    }
+  }
+}
