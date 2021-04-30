@@ -46,18 +46,7 @@
       margin-top: 20rem;
       margin-left: 5rem;
     }
-    hr {
-      width: 0.2rem;
-      height: 2.5rem;
-      background: $color-one;
 
-      transform: rotate(90deg);
-      border: none;
-      position: absolute;
-      top: 20rem;
-      margin-left: 1.5rem;
-      margin-left: 3rem;
-    }
     h5 {
       font-family: "yekan";
       margin-right: 1rem;
@@ -115,4 +104,14 @@
       }
     }
   }
+}
+.hr-border {
+  background: $color-one;
+  transform: rotate(90deg);
+  border: none;
+  position: absolute;
+  top: 20rem;
+  margin: 0 3rem;
+  width: 0.2rem;
+  height: 2.5rem;
 }
