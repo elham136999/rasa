@@ -12,8 +12,8 @@
 }
 
 .container .shape {
-  width: 350px;
-  height: 350px;
+  width: 22rem;
+  height: 22rem;
   background-color: #ffaa17;
   position: absolute;
   right: 0;
@@ -306,6 +306,68 @@
   top: 20rem;
   margin-left: 1.5rem;
   margin-left: 3rem;
+}
+
+.section-1 .description h5 {
+  font-family: "yekan";
+  margin-right: 1rem;
+  font-size: 2rem;
+  text-align: right;
+  margin-top: 1rem;
+}
+
+.section-1 .description .sub {
+  font-family: "yekan";
+  font-size: 1.2rem;
+  margin: 1.5rem;
+  display: inline-block;
+  color: #6e6c6c;
+  text-align: right;
+}
+
+.section-1 .description-2 {
+  position: relative;
+}
+
+.section-1 .description-2 .user {
+  margin-bottom: 2rem;
+  margin-left: 1rem;
+}
+
+.section-1 .description-2 .user .icon-1 {
+  position: relative;
+}
+
+.section-1 .description-2 .user .icon-1 .number {
+  font-size: 2.5rem;
+  color: #ffaa17;
+  font-weight: 900;
+  margin: 1.6rem 6rem;
+  display: inline-block;
+}
+
+.section-1 .description-2 .user .icon-1 .user-load {
+  position: absolute;
+}
+
+.section-1 .description-2 .user .icon-1 .fa-user {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 2.2rem;
+}
+
+.section-1 .description-2 .user .text {
+  font-size: 1.5rem;
+  text-align: right;
+  margin-right: 1rem;
+}
+
+.section-1 .description-2 .user .fa-clock {
+  font-size: 1.5rem;
+  position: absolute;
+  top: 2rem;
+  left: 2.2rem;
 }
 
 *,

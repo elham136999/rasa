@@ -58,5 +58,61 @@
       margin-left: 1.5rem;
       margin-left: 3rem;
     }
+    h5 {
+      font-family: "yekan";
+      margin-right: 1rem;
+      font-size: 2rem;
+      text-align: right;
+      margin-top: 1rem;
+    }
+    .sub {
+      font-family: "yekan";
+      font-size: 1.2rem;
+      margin: 1.5rem;
+      display: inline-block;
+      color: $colir-gray-dark;
+      text-align: right;
+    }
+  }
+  .description-2 {
+    position: relative;
+
+    .user {
+      margin-bottom: 2rem;
+      margin-left: 1rem;
+
+      .icon-1 {
+        position: relative;
+
+        .number {
+          font-size: 2.5rem;
+          color: $color-one;
+          font-weight: 900;
+          margin: 1.6rem 6rem;
+          display: inline-block;
+        }
+
+        .user-load {
+          position: absolute;
+        }
+        .fa-user {
+          font-size: 1.5rem;
+          position: absolute;
+          top: 2rem;
+          left: 2.2rem;
+        }
+      }
+      .text {
+        font-size: 1.5rem;
+        text-align: right;
+        margin-right: 1rem;
+      }
+      .fa-clock {
+        font-size: 1.5rem;
+        position: absolute;
+        top: 2rem;
+        left: 2.2rem;
+      }
+    }
   }
 }
