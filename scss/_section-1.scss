@@ -2,26 +2,61 @@
   .gallery {
     margin-top: 2.5rem;
     position: relative;
+    width: 100%;
 
     .image {
       position: absolute;
       left: 1rem;
     }
     .image-1 {
-      width: 25rem;
-      height: 25rem;
+      width: 30rem;
+      height: 27rem;
+      padding-left: 2rem;
     }
     .image-2 {
-      width: 10rem;
+      width: 12rem;
       height: 8rem;
       margin-top: 2rem;
-      margin-left: 20rem;
+      margin-left: 23rem;
     }
     .image-3 {
-      width: 20rem;
-      height: 15rem;
-      margin-left: 12rem;
+      width: 22rem;
+      height: 18rem;
+      margin-left: 9rem;
       margin-top: 20rem;
+    }
+    .ziro {
+      width: 13rem;
+      height: 22rem;
+      position: relative;
+      top: 10rem;
+      z-index: 5;
+    }
+  }
+  .description {
+    position: relative;
+    width: 100%;
+
+    .main {
+      font-size: 1.5rem;
+      font-family: "jadid", sans-serif;
+      color: $color-one;
+      z-index: 6;
+      display: inline-block;
+      margin-top: 20rem;
+      margin-left: 5rem;
+    }
+    hr {
+      width: 0.2rem;
+      height: 2.5rem;
+      background: $color-one;
+
+      transform: rotate(90deg);
+      border: none;
+      position: absolute;
+      top: 20rem;
+      margin-left: 1.5rem;
+      margin-left: 3rem;
     }
   }
 }
