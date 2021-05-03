@@ -4,3 +4,10 @@ $color-black: #000;
 $color-gray-light: rgb(187, 186, 186);
 $colir-gray-dark: rgb(110, 108, 108);
 $color-blue-dark: #041d38;
+
+@mixin flex-center($flex-direction) {
+  display: flex;
+  flex-direction: $flex-direction;
+  justify-content: center;
+  align-items: center;
+}

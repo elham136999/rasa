@@ -9,10 +9,8 @@
   );
 
   .content {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    align-items: center;
+    @include flex-center(row);
+    flex-direction: flex-direction;
 
     .text-2 {
       font-size: 1.5rem;
@@ -26,11 +24,8 @@
     }
   }
   .cards-group {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-
+    @include flex-center(column);
+    flex-direction: flex-direction;
     .card {
       width: 90%;
       height: 23rem;
@@ -110,13 +105,14 @@
     position: absolute;
     right: 0;
     bottom: 0;
+    margin: 1rem;
 
     .fas {
       color: $color-white;
       font-size: 1.5rem;
       position: relative;
-      top: 0.9rem;
-      left: 0.9rem;
+      top: 1.5rem;
+      left: 1.5rem;
     }
   }
 }

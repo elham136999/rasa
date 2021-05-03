@@ -1,0 +1,31 @@
+.section-3 {
+  .featurs-box {
+    margin-top: 3rem;
+    width: 100%;
+
+    .featur-box {
+      text-align: right;
+      margin: 2rem 1rem 1rem 1rem;
+      background-color: $color-white;
+      padding: 0.5rem;
+      height: 11rem;
+
+      h4 {
+        font-size: 1.5rem;
+        color: $color-blue-dark;
+        font-family: "yekan";
+        font-weight: bolder;
+      }
+      p {
+        font-size: 1rem;
+        margin-top: 1rem;
+        font-family: "yekan";
+        color: $color-blue-dark;
+      }
+    }
+    .featur-img {
+      @include flex-center(column);
+      flex-direction: flex-direction;
+    }
+  }
+}

@@ -381,6 +381,7 @@
   flex-direction: row;
   justify-content: center;
   align-items: center;
+  flex-direction: flex-direction;
 }
 
 .section-2 .content .text-2 {
@@ -400,6 +401,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  flex-direction: flex-direction;
 }
 
 .section-2 .cards-group .card {
@@ -490,14 +492,50 @@
   position: absolute;
   right: 0;
   bottom: 0;
+  margin: 1rem;
 }
 
 .section-2 .arrow .fas {
   color: #fff;
   font-size: 1.5rem;
   position: relative;
-  top: 0.9rem;
-  left: 0.9rem;
+  top: 1.5rem;
+  left: 1.5rem;
+}
+
+.section-3 .featurs-box {
+  margin-top: 3rem;
+  width: 100%;
+}
+
+.section-3 .featurs-box .featur-box {
+  text-align: right;
+  margin: 2rem 1rem 1rem 1rem;
+  background-color: #fff;
+  padding: 0.5rem;
+  height: 11rem;
+}
+
+.section-3 .featurs-box .featur-box h4 {
+  font-size: 1.5rem;
+  color: #041d38;
+  font-family: "yekan";
+  font-weight: bolder;
+}
+
+.section-3 .featurs-box .featur-box p {
+  font-size: 1rem;
+  margin-top: 1rem;
+  font-family: "yekan";
+  color: #041d38;
+}
+
+.section-3 .featurs-box .featur-img {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  flex-direction: flex-direction;
 }
 
 *,
