@@ -2,13 +2,7 @@
 @import "section-1";
 @import "section-2";
 @import "section-3";
-
-@mixin flex-center {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-}
+@import "section-4";
 
 *,
 *::before,
@@ -19,6 +13,7 @@
 }
 body {
   overflow-x: hidden;
+  font-family: "yekan";
 }
 html {
   font-size: 100%;

@@ -1,0 +1,59 @@
+.video-section {
+  width: 100%;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  .bg-img {
+    width: 100%;
+    height: 25rem;
+  }
+
+  .content {
+    width: 100%;
+    height: 25rem;
+    background-color: $color-blue-dark;
+    padding: 1rem;
+    text-align: right;
+
+    h1 {
+      color: $color-white;
+      margin-top: 2rem;
+      font-size: 2rem;
+      line-height: 2;
+    }
+    .span-text {
+      color: $color-white;
+      margin-top: 1rem;
+      font-size: 1.3rem;
+      display: inline-block;
+    }
+  }
+
+  p {
+    color: $color-one;
+    margin-left: 5rem;
+    font-weight: 800;
+    text-align: left;
+  }
+  .hr-border {
+    position: relative;
+    top: 2rem;
+    left: 0;
+  }
+  .pley::before {
+    content: "پخش";
+    width: 7rem;
+    height: 7rem;
+    background-color: $color-one;
+    text-decoration: none;
+    color: $color-white;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    position: absolute;
+    top: 43%;
+    left: 42%;
+    border-radius: 50%;
+    text-align: center;
+    padding: 2.4rem 0 2.4rem 0;
+  }
+}
