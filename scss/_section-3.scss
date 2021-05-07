@@ -5,10 +5,10 @@
 
     .featur-box {
       text-align: right;
-      margin: 2rem 1rem 1rem 1rem;
+      margin: 0 1rem 1rem 1rem;
       background-color: $color-white;
       padding: 0.5rem;
-      height: 11rem;
+      height: 9rem;
 
       h4 {
         font-size: 1.5rem;
@@ -24,6 +24,7 @@
     .featur-img {
       @include flex-center(column);
       flex-direction: flex-direction;
+      clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 70%);
     }
   }
 }

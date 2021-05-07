@@ -187,51 +187,51 @@
       right: 1rem;
     }
   }
-  .button {
-    margin: 2rem 0 0 2rem;
-    display: flex;
-    z-index: 1;
+}
+.button {
+  margin: 2rem 0 0 2rem;
+  display: flex;
+  z-index: 1;
 
-    .btn {
-      padding: 1rem;
-      display: block;
-      margin: 0.5rem;
-      width: 8rem;
-      outline: none;
-      font-family: "yekan", sans-serif;
-      position: relative;
-    }
-    .btn-1 {
-      background-color: $color-one;
-      border: 2px solid $color-one;
-      &:hover {
-        background-color: transparent;
-        border: 2px solid $color-gray-light;
-        color: $color-white;
-      }
-      .fas {
-        color: $color-black;
-      }
-    }
-    .btn-2 {
-      border: 2px solid $color-gray-light;
+  .btn {
+    padding: 1rem;
+    display: block;
+    margin: 0.5rem;
+    width: 8rem;
+    outline: none;
+    font-family: "yekan", sans-serif;
+    position: relative;
+  }
+  .btn-1 {
+    background-color: $color-one;
+    border: 2px solid $color-one;
+    &:hover {
       background-color: transparent;
+      border: 2px solid $color-gray-light;
       color: $color-white;
-      .fas {
-        color: $color-one;
-      }
-      &:hover {
-        background-color: $color-one;
-        border: 2px solid $color-one;
-      }
     }
     .fas {
-      font-size: 1.2rem;
-
-      transform: rotate(225deg);
-      position: absolute;
-      top: 0;
-      right: 0;
+      color: $color-black;
     }
+  }
+  .btn-2 {
+    border: 2px solid $color-gray-light;
+    background-color: transparent;
+    color: $color-white;
+    .fas {
+      color: $color-one;
+    }
+    &:hover {
+      background-color: $color-one;
+      border: 2px solid $color-one;
+    }
+  }
+  .fas {
+    font-size: 1.2rem;
+
+    transform: rotate(225deg);
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 }

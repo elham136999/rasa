@@ -189,13 +189,13 @@
   right: 1rem;
 }
 
-.container .button {
+.button {
   margin: 2rem 0 0 2rem;
   display: flex;
   z-index: 1;
 }
 
-.container .button .btn {
+.button .btn {
   padding: 1rem;
   display: block;
   margin: 0.5rem;
@@ -205,37 +205,37 @@
   position: relative;
 }
 
-.container .button .btn-1 {
+.button .btn-1 {
   background-color: #ffaa17;
   border: 2px solid #ffaa17;
 }
 
-.container .button .btn-1:hover {
+.button .btn-1:hover {
   background-color: transparent;
   border: 2px solid #bbbaba;
   color: #fff;
 }
 
-.container .button .btn-1 .fas {
+.button .btn-1 .fas {
   color: #000;
 }
 
-.container .button .btn-2 {
+.button .btn-2 {
   border: 2px solid #bbbaba;
   background-color: transparent;
   color: #fff;
 }
 
-.container .button .btn-2 .fas {
+.button .btn-2 .fas {
   color: #ffaa17;
 }
 
-.container .button .btn-2:hover {
+.button .btn-2:hover {
   background-color: #ffaa17;
   border: 2px solid #ffaa17;
 }
 
-.container .button .fas {
+.button .fas {
   font-size: 1.2rem;
   transform: rotate(225deg);
   position: absolute;
@@ -509,10 +509,10 @@
 
 .section-3 .featurs-box .featur-box {
   text-align: right;
-  margin: 2rem 1rem 1rem 1rem;
+  margin: 0 1rem 1rem 1rem;
   background-color: #fff;
   padding: 0.5rem;
-  height: 11rem;
+  height: 9rem;
 }
 
 .section-3 .featurs-box .featur-box h4 {
@@ -533,6 +533,7 @@
   justify-content: center;
   align-items: center;
   flex-direction: flex-direction;
+  clip-path: polygon(0% 0%, 100% 0%, 100% 70%, 0% 70%);
 }
 
 .video-section {
@@ -597,6 +598,75 @@
   border-radius: 50%;
   text-align: center;
   padding: 2.4rem 0 2.4rem 0;
+}
+
+.section-5 {
+  position: relative;
+}
+
+.section-5 .picture {
+  width: 25rem;
+  height: 25rem;
+  background-image: linear-gradient(rgba(110, 108, 108, 0.6), rgba(110, 108, 108, 0.5)), url("/images/mohammad ali.jpg");
+  background-size: cover;
+  position: relative;
+  left: 3rem;
+  top: 5rem;
+  transition: 1s;
+  cursor: pointer;
+}
+
+.section-5 .picture:hover {
+  transform: scale(1.05);
+}
+
+.section-5 .plus {
+  width: 4rem;
+  height: 4rem;
+  font-size: 1.5rem;
+  background-color: #fff;
+  text-align: center;
+  padding: 0.8rem 0;
+  position: absolute;
+  right: 2.2rem;
+  top: 5rem;
+  font-weight: bolder;
+}
+
+.section-5 .text {
+  z-index: 2;
+  position: relative;
+  left: 4rem;
+  bottom: 1rem;
+}
+
+.section-5 .text h2 {
+  color: #fff;
+  font-size: 1.5rem;
+}
+
+.section-5 .text span {
+  color: #ffaa17;
+  font-size: 1.4rem;
+  font-weight: bolder;
+}
+
+.section-5 .btn-1 {
+  color: #041d38;
+  font-weight: bolder;
+  position: relative;
+  left: 9rem;
+  transition: 1s;
+}
+
+.section-5 .btn-1:hover {
+  background-color: #fff;
+  border: 2px solid #bbbaba;
+  color: #041d38;
+}
+
+.section-5 .btn-1 .fas {
+  color: #041d38;
 }
 
 *,
