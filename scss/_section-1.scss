@@ -37,16 +37,6 @@
     position: relative;
     width: 100%;
 
-    .main {
-      font-size: 1.5rem;
-      color: $color-one;
-      z-index: 6;
-      display: inline-block;
-      margin-top: 20rem;
-      margin-left: 5rem;
-      font-weight: bolder;
-    }
-
     h5 {
       margin-right: 1rem;
       font-size: 2rem;
@@ -114,4 +104,13 @@
   margin: 0 3rem;
   width: 0.2rem;
   height: 2.5rem;
+}
+.main {
+  font-size: 1.5rem;
+  color: $color-one;
+  z-index: 6;
+  display: inline-block;
+  margin-top: 20rem;
+  margin-left: 5rem;
+  font-weight: bolder;
 }
